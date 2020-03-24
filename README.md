@@ -4,6 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Unity Lua
-> Use Lua scripting lanaguage in Unity to accomplish hot update/fox functionalitiy.
+> Use Lua scripting language in Unity to accomplish hot update/fox functionalitiy.
 
 Project built on top of the [tolua](https://github.com/topameng/tolua) by [topameng](https://github.com/topameng).
