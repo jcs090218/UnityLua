@@ -10,12 +10,15 @@
 Test = {}
 local this = Test
 
+----------------------------------------------------------------
+-- Use this for initialization.
+----------------------------------------------------------------
 function this.Start()
     print("Start function from `Test.lua` file!")
 end
 
 ----------------------------------------------------------------
--- This will run every frame.
+-- Update is called once per frame.
 ----------------------------------------------------------------
 -- @param { MonoBehaviour } mb : MonoBehaviour component
 -- represent as game object.
