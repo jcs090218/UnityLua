@@ -1,0 +1,15 @@
+# 
+# Thank you for using 'Unity Package Exporter'. This is the generated 
+# unityignore file.
+# 
+# Package Name: UnityLua
+# Version: 0.1.0
+# Creation Date: 2020-03-24 17:15:43 
+# 
+# Package Link: https://github.com/jcs090218/UnityPackageExporter
+# Author: Shen, Jen-Chieh
+# Email: jcs090218@gmail.com
+# 
+
+# Ignore this plugin itself.
+UnityPackageExporter
