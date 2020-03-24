@@ -27,6 +27,8 @@ C# to binary.
 * No auto-completion and debugging tool. (Maybe in the future?)
 * You would have to do extra comilation every time you want to port a function
 from C# to Lua programming interface.
+* Unstable, easy to break.
+* Slower than C# in general.
 
 ## About ToLua
 
