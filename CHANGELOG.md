@@ -7,4 +7,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### 2020-03-24
 
+* Added example for calling lua function from C#.
+* Imported the newest version of `tolua`.
 * First release.
