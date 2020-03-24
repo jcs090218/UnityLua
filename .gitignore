@@ -1,0 +1,57 @@
+# ignore the those directory
+/.git
+/.vs
+/.vscode
+/Temp
+/Build
+/Library
+/Logs
+/obj
+/Tutorials
+/Publish
+
+# Except these directory.
+!/Assets/Libraries/Tweener/
+
+# ignore build info
+/Assets/StreamingAssets/build_info
+/Assets/StreamingAssets/build_info.*
+
+# ignore plugin for Unity built-in functionalities.
+/Assets/Plugins
+/Assets/Plugins.meta
+
+# don't include the video.
+/Video
+
+# ignore the following extension file
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.orig
+*.app
+*.exe
+*.*_data
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# ignore mac attribute file
+*.DS_Store
+
+# Builds
+*.apk
+*.unitypackage
+
+# ignore log and todos.
+TODO(jenchieh).txt
+Update_Log.txt
