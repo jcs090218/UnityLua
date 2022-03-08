@@ -1,10 +1,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Unity Engine](https://img.shields.io/badge/unity-2021.2.0f1-black.svg?style=flat&logo=unity&cacheSeconds=2592000)](https://unity3d.com/get-unity/download/archive)
 [![Release](https://img.shields.io/github/release/jcs090218/UnityLua.svg?logo=github)](https://github.com/jcs090218/UnityLua/releases/latest)
-[![Build Status](https://travis-ci.com/jcs090218/UnityLua.svg?branch=master)](https://travis-ci.com/jcs090218/UnityLua)
 
 # Unity Lua
 > Use Lua scripting language in Unity to accomplish hot update/fix functionality.
+
+[![Build Status](https://travis-ci.com/jcs090218/UnityLua.svg?branch=master)](https://travis-ci.com/jcs090218/UnityLua)
 
 Project built on top of the [tolua](https://github.com/topameng/tolua) by [topameng](https://github.com/topameng).
 
