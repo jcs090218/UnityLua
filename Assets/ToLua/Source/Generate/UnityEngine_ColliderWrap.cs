@@ -226,7 +226,7 @@ public class UnityEngine_ColliderWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UnityEngine.Collider obj = (UnityEngine.Collider)o;
-			UnityEngine.PhysicMaterial ret = obj.sharedMaterial;
+			UnityEngine.PhysicsMaterial ret = obj.sharedMaterial;
 			ToLua.Push(L, ret);
 			return 1;
 		}
@@ -245,7 +245,7 @@ public class UnityEngine_ColliderWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UnityEngine.Collider obj = (UnityEngine.Collider)o;
-			UnityEngine.PhysicMaterial ret = obj.material;
+			UnityEngine.PhysicsMaterial ret = obj.material;
 			ToLua.Push(L, ret);
 			return 1;
 		}
@@ -321,7 +321,7 @@ public class UnityEngine_ColliderWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UnityEngine.Collider obj = (UnityEngine.Collider)o;
-			UnityEngine.PhysicMaterial arg0 = (UnityEngine.PhysicMaterial)ToLua.CheckObject<UnityEngine.PhysicMaterial>(L, 2);
+			UnityEngine.PhysicsMaterial arg0 = (UnityEngine.PhysicsMaterial)ToLua.CheckObject<UnityEngine.PhysicsMaterial>(L, 2);
 			obj.sharedMaterial = arg0;
 			return 0;
 		}
@@ -340,7 +340,7 @@ public class UnityEngine_ColliderWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UnityEngine.Collider obj = (UnityEngine.Collider)o;
-			UnityEngine.PhysicMaterial arg0 = (UnityEngine.PhysicMaterial)ToLua.CheckObject<UnityEngine.PhysicMaterial>(L, 2);
+			UnityEngine.PhysicsMaterial arg0 = (UnityEngine.PhysicsMaterial)ToLua.CheckObject<UnityEngine.PhysicsMaterial>(L, 2);
 			obj.material = arg0;
 			return 0;
 		}

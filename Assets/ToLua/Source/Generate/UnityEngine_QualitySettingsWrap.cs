@@ -364,7 +364,7 @@ public class UnityEngine_QualitySettingsWrap
 	{
 		try
 		{
-			LuaDLL.lua_pushinteger(L, UnityEngine.QualitySettings.masterTextureLimit);
+			LuaDLL.lua_pushinteger(L, UnityEngine.QualitySettings.globalTextureMipmapLimit);
 			return 1;
 		}
 		catch (Exception e)
@@ -867,7 +867,7 @@ public class UnityEngine_QualitySettingsWrap
 		try
 		{
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
-			UnityEngine.QualitySettings.masterTextureLimit = arg0;
+			UnityEngine.QualitySettings.globalTextureMipmapLimit = arg0;
 			return 0;
 		}
 		catch (Exception e)

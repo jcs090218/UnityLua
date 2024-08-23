@@ -53,7 +53,7 @@ public class UnityEngine_LightTypeWrap
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_Area(IntPtr L)
 	{
-		ToLua.Push(L, UnityEngine.LightType.Area);
+		ToLua.Push(L, UnityEngine.LightType.Rectangle);
 		return 1;
 	}
 

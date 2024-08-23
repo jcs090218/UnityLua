@@ -150,7 +150,7 @@ public class UnityEngine_TextureWrap
 	{
 		try
 		{
-			LuaDLL.lua_pushinteger(L, UnityEngine.Texture.masterTextureLimit);
+			LuaDLL.lua_pushinteger(L, UnityEngine.Texture.globalMipmapLimit);
 			return 1;
 		}
 		catch (Exception e)
@@ -660,7 +660,7 @@ public class UnityEngine_TextureWrap
 		try
 		{
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
-			UnityEngine.Texture.masterTextureLimit = arg0;
+			UnityEngine.Texture.globalMipmapLimit = arg0;
 			return 0;
 		}
 		catch (Exception e)
